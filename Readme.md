@@ -6,3 +6,4 @@
 ## CLASES DE EQUIVALENCIA
 ### Crear un proyecto con Maven
 
+Crear el proyecto maven, basado en el arquetipo especificado:
