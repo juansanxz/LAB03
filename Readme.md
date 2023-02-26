@@ -34,6 +34,25 @@ Usando el comando mvn test, se evidencia que se ejecuta la clase AppTest con éx
 En el proyecto se evidencia la creación de las clases especificadas y dadas.
 
 ## Ejecutar las pruebas
-Haciendo la prueba y el mínimo código para que pase:  
+Haciendo la prueba:
 
+```
+@Test    public void validateRegistryResult() {
+    Person person = new Person();
+    RegisterResult result = registry.registerVoter(person);
+    assertEquals(RegisterResult.VALID, result);
+    }
+```
+Y el mínimo código para que pase:
+
+```
+/**     
+    * Validates if a person is allowed to vote     
+     * @param p person who we are validating    
+     * @return a RegisterResult constant according to the validations     
+     */    
+     public RegisterResult registerVoter(Person p) {
+        return RegisterResult.VALID;
+    }
+```
 
