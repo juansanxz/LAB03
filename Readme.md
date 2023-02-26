@@ -17,4 +17,23 @@ Entrando al repositorio central de maven y buscando el artifact más nuevo de JU
 Seleccionar en la parte de Maven para copiar las dependencias:
 <img src="/img/3.png" width="80%" height="80%"/>
 
-Modificar el pom.xml:
+Modificar el pom.xml:  
+<img src="/img/4.png" width="80%" height="80%"/>
+
+### Compilar y ejecutar
+
+Compilar el proyecto:  
+<img src="/img/5.png" width="80%" height="80%"/>
+
+Usando el comando mvn test, se evidencia que se ejecuta la clase AppTest con éxito:  
+<img src="/img/6.png" width="80%" height="80%"/>
+
+## Ejercicio registraduría
+### Hacer el esqueleto de la aplicación
+
+En el proyecto se evidencia la creación de las clases especificadas y dadas.
+
+## Ejecutar las pruebas
+Haciendo la prueba y el mínimo código para que pase:  
+
+
